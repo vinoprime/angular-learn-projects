@@ -1,0 +1,9 @@
+{
+  "home": {
+    "title": "Page d'accueil",
+    "welcome_text": "mettre les gens à l'aise"
+  },
+  "settings": {
+    "title": "page des paramètres"
+  }
+}

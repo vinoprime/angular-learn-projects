@@ -9,7 +9,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 
 export function rootLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http, "assets/i18n.", ".json")
+  return new TranslateHttpLoader(http, "assets/i18n/", ".json")
 }
 
 @NgModule({
