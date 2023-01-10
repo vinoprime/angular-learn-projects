@@ -7,7 +7,7 @@ import { TranslateService } from '@ngx-translate/core';
 export class TranslateConfigService {
 
   constructor(private _trans: TranslateService) {
-    this._trans.use("ta");
+    this._trans.use("fr");
   }
 
 
