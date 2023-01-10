@@ -1,0 +1,10 @@
+<div>
+  <tr *ngFor="let user of users | filter:searchTerm">
+    <td>{{ user.name }}</td>
+    <td>{{ user.email }}</td>
+    <td>{{ user.role }}</td>
+  </tr>
+  <br />
+
+
+</div>
